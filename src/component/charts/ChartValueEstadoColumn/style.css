@@ -1,0 +1,15 @@
+.charts-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chart {
+
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+}

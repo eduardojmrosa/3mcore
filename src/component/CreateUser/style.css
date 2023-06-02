@@ -1,0 +1,227 @@
+.modal-create-user-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-user-container {
+  background-color: white;
+  width: 500px;
+  max-width: 97%;
+  max-height: calc(100vh - 130px);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 100px;
+}
+
+.create-user-header {
+  width: 100%;
+  min-height: 70px;
+  max-height: 70px;
+  display: flex;
+}
+
+.create-user-header .title {
+  width: 100%;
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.create-user-header .btn-close-container {
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.create-user-header .btn-close {
+  width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.create-user-header .btn-close:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+.create-user-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.create-user-body .title {
+  width: 100%;
+  min-height: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 5px;
+}
+
+.create-user-body .input-create-user {
+  background-color: #ffffff;
+  width: 100%;
+  height: 38px;
+  min-height: 38px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #B3B3B3;
+  color: rgb(70, 70, 70);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.create-user-body .input-create-user:focus {
+  border: 2px solid dodgerblue;
+}
+
+.create-user-body .btns-nivel-acess {
+  display: flex;
+}
+
+.btns-nivel-acess .btn-acess {
+  width: 100%;
+  height: 35px;
+  padding-inline: 10px;
+  margin-inline: 5px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.create-user-footer {
+  width: 100%;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+}
+
+.create-user-footer .btn-cancel {
+  background-color: rgb(179, 179, 179);
+  width: 100px;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+}
+
+.create-user-footer .btn-cancel:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+.create-user-footer .btn-save {
+  background-color: dodgerblue;
+  width: 100px;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+.create-user-footer .btn-save:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+/* --- SELECT --- */
+
+.create-user-select {
+  background-color: #ffffff;
+  width: 100%;
+  height: 38px;
+  min-height: 38px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #B3B3B3;
+  color: #757575;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.user-select {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #757575;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid dodgerblue;
+}
+
+.item-list-select {
+  width: 100%;
+  min-height: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-list-select:hover {
+  background-color: #B3B3B3;
+  border-radius: 5px;
+  color: white;
+}

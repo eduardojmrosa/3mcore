@@ -1,0 +1,315 @@
+.modal-edit-card-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-card-container {
+  background-color: white;
+  width: 600px;
+  max-width: 97%;
+  max-height: calc(100vh - 125px);
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 55px;
+}
+
+.edit-card-header {
+  width: 100%;
+  min-height: 70px;
+  max-height: 70px;
+  display: flex;
+}
+
+.edit-card-header .title-header-edit-card {
+  width: 100%;
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+.edit-card-header .btn-close-container {
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.edit-card-header .btn-close {
+  width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.edit-card-header .btn-close:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+.edit-card-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.edit-card-body .title {
+  width: 100%;
+  min-height: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 5px;
+}
+
+.edit-card-body .input-edit-card {
+  background-color: #ffffff;
+  width: 100%;
+  height: 38px;
+  min-height: 38px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #B3B3B3;
+  color: rgb(70, 70, 70);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-card-body .input-edit-card:focus {
+  border: 2px solid dodgerblue;
+}
+
+.edit-card-footer {
+  width: 100%;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+}
+
+.edit-card-footer .footer-rigth {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-card-footer .btn-excluir {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  color: #757575;
+}
+
+.edit-card-footer .btn-excluir:hover {
+  background-color:rgb(252, 34, 118);
+  color: white;
+}
+
+
+.edit-card-footer .btn-cancel {
+  background-color: rgb(179, 179, 179);
+  width: 100px;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+}
+
+.edit-card-footer .btn-cancel:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+.edit-card-footer .btn-save {
+  background-color: dodgerblue;
+  width: 100px;
+  min-height: 45px;
+  max-height: 45px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+.edit-card-footer .btn-save:hover {
+  background-color: rgb(252, 34, 118);
+  color: white;
+}
+
+
+/* --- SELECT ---- */
+
+.edit-card-select {
+  background-color: #ffffff;
+  width: 100%;
+  height: 38px;
+  min-height: 38px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #B3B3B3;
+  color: #757575;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-select {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #757575;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid dodgerblue;
+}
+
+.card-select .item-list-select {
+  width: 100%;
+  min-height: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-select .item-list-select:hover {
+  background-color: #B3B3B3;
+  border-radius: 5px;
+  color: white;
+}
+
+.card-stars-container {
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+
+
+.icon-star-edit-card {
+  width: 26px;
+  height: 26px;
+  margin-inline: 3px;
+  color: rgba(172, 172, 172, 0.952);
+}
+
+.funil-vendas {
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+  display: flex;
+}
+
+
+.define-process {
+  width: 100%;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.define-process .process {
+  width: 100%;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-inline: 2px;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.define-process .process:hover {
+  background-color: deeppink;
+  color: white;
+}
+
+.define-process .process .icon-vendido{
+ /* color:dodgerblue;*/
+
+  width:20px;
+  min-height: 20px;
+  margin-right: 5px;
+}
+
+.define-process .process .icon-perdido{
+  /*color:deeppink;*/
+
+  width:20px;
+  min-height: 20px;
+  margin-right: 5px;
+}
+
+
+
+

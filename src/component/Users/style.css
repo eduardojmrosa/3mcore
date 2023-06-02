@@ -1,0 +1,85 @@
+
+/* BOARD */
+.users-container {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    position: fixed;
+    left: 0px;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.users-header {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.users-header .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.users-header .btn-create-user {
+    padding-inline: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-inline: 15px;
+    margin-left: 20px;
+    border: none;
+    background-color: deeppink;
+    border-radius: 8px;
+    color: white;
+}
+
+.users-body {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+
+}
+
+.lista-users-container {
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: auto;
+
+}
+
+.users-body .lista-users {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+
+}
+
+.users-body .item-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    height: 40px;
+    padding-inline: 20px;
+    
+}
+
+.header-lista {
+    padding-inline: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
